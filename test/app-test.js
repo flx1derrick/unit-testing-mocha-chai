@@ -14,6 +14,6 @@ describe('-', () => {
       
       
       // Write assertion here
-      assert.ok(result === expected);
+      assert.ok(result, expected);
     });
   });
