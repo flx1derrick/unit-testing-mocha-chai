@@ -12,13 +12,13 @@ module.exports = {
 
     isLeapYear: function(year) {
         if (year % 400 == 0) {
-            console.log(`${year} is a centurial leap year.`);
+            //console.log(`${year} is a centurial leap year.`);
             return true;
         } else if (year % 4 == 0 && year % 100 !== 0) {
-            console.log(`${year} is a pure leap year.`);
+            //console.log(`${year} is a pure leap year.`);
             return true;
         } else {
-            console.log(`${year} is a common year.`);
+            //console.log(`${year} is a common year.`);
             return false;
         }
     },
